@@ -1,0 +1,87 @@
+/* SIZE OF IMAGES */
+/* img{
+    width: 250px;
+    length: 250px;
+} */
+
+/* ALIGNING IMAGES */
+/* img{
+    margin-left: 200px;
+} */
+
+/* img{
+    float: right;
+} */
+
+
+/* CENTERING IMAGES */
+/* img{
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+} */
+
+
+/* BACKGROUNG IMAGES */
+/* body{
+    background-image: url(./assets/passion.jpg);
+} */
+
+/* backgroung repeat */
+/* body{
+    font-size: xx-large;
+    background-image: url(./assets/passion.jpg);
+    background-attachment: fixed;
+} */
+
+/* background position */
+/* body{
+    background-image: url('./assets/Murshad.png');
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+/* background shorthand */
+/* p{
+    background: #ffffff url("./assets/Murshad.png") no-repeat top right;
+} */
+
+
+/* GRADIENTS */
+
+/* linear gradient */
+/* body{
+    background-image: linear-gradient(red , yellow);
+    background-repeat: no-repeat;
+    height: 100vh;
+} */
+
+/* #gradient-container{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    for browsers that do not support gradients
+    background-image: linear-gradient(yellow,purple,blue);
+    margin: auto;
+} */
+
+
+/* radial gradient */
+/* #gradient-container{
+    width: 400px;
+    height: 400px;
+    background-image: radial-gradient(red,yellow,green);
+    margin: auto;
+} */
+
+
+/* conic gradient */
+#gradient-container{
+    width: 400px;
+    height: 400px;
+    background-image: conic-gradient(red,yellow,green,blue,black);
+    border-radius: 50%;
+    margin: auto;
+}
